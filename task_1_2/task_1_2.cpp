@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include <windows.h>
-#include <cstdio> // Для использования printf
+#include <cstdio>
 
 using namespace std;
 
@@ -14,14 +14,14 @@ int main()
 
     cout << "\nЗадание 1.2:\nНаписать программу, которая выводит сумму, разность, произведение и частное двух введённых пользователем чисел." << endl;
     int a = 0;
-    int b = 0;\
+    int b = 0;
 
     // Сумма
     cout << "\nСумма: " << endl;
     cout << "Введите первое число (a):";
     cin >> a;
     cout << "Введите второе число (b):";
-    cin >> b;\
+    cin >> b;
     printf("Результат суммы ( %d + %d ): %d\n", a, b, a + b);
 
     // Разность

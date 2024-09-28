@@ -4,9 +4,9 @@
 
 //#define NOMINMAX
 #include <iostream>
-#include <limits>
+//#include <limits>
 //#include <windows.h>
-#include <conio.h> // Для getch() и kbhit()
+//#include <conio.h> // Для getch() и kbhit()
 
 using namespace std;
 
